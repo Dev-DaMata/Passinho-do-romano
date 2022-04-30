@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/200.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 97%;
+}
+h1, img{
+    display: flex;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.left{
+    /* background-color: brown; */
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.sele{
+    background-color: black;
+    color: #59ae48;
+    margin-top:3% ;
+    border: 2px solid #4a993b;
+    resize: none;
+    padding-top: 1%;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 1%;
+}
+.right{
+    /* background-color: tomato; */
+}
+.bobo{
+    background-color: #59ae48;
+    margin-top:3% ;
+    border: 2px solid #4a993b;
+    resize: none;
+    padding-top: 1%;
+    margin-bottom: 2%;
+}
+.sumiu{
+    background-color: black;
+    color: #59ae48;
+    margin-top:3% ;
+    border: 2px solid #4a993b;
+    resize: none;
+    padding-top: 1%;
+}
+
