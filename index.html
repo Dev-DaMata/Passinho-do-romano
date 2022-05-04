@@ -10,40 +10,38 @@
 </head>
 
 <body>
-    <header class="info">
-        <h1 class="info">Codifique</h1>
+    <header class="info1">
+        <h1 >Codifique</h1>
         <img  src="./img/passinho-do-romano-dance.gif" width="10%">
     </header>
     <main>
         <div id="left" class="left">
             <p class="info">escreva aqui</p>
-            <textarea class="sele" name="" id="" cols="30" rows="10" placeholder="Digite o seu texto"></textarea>
-            <select class="sele">
-                <option selected disabled value="">Selecione</option>
-                <option valeu="1">Base 64</option>
-                <option value="2">Cifra de cesar</option>
+            <textarea class="txt" name="" id="entraTxt" cols="30" rows="15" placeholder="Digite o seu texto"></textarea>
+            <select id="sele" class="sele">
+                <option selected disabled value="0">Selecione</option>
+                <option id="base64" value="1">Base 64</option>
+                <option id="cifra" value="2">Cifra de cesar</option>
             </select>
             <fieldset class="bobo">
-                <div>
-                    <input name="codi" type="radio">Codificar</input>
-                    <label for="codi"></label>
-                </div>
-                <div>
-                    <input name="codi" type="radio">Decodificar</input>
-                    <label for="codi"></label>
+                <div id="radio">                                       
+                    <input id="codi" name="radio" type="radio"  >Codificar</input>                  
+                    <input id="decodi" name="radio" type="radio">Decodificar</input>                   
                 </div>
 
             </fieldset>
             <form class="sumiu" id="sumiu" action="">
-                <label name="incremento" for="">Qual numero você quer usar como incremento?</label>
+                <label id="incremento" name="incremento" for="">Qual numero você quer usar como incremento?</label>
                 <input name="incremento" type="number" placeholder="Escolha um numero ">
             </form>
-            <button>Enviar</button>
+            <div id="botao"></div>
         </div>
         <div id="right" class="right">
-            <textarea class="sele" name="" id="" cols="30" rows="30" placeholder="Seu texto aqui"></textarea>
+            <textarea class="txt" name="" id="saiTxt" cols="30" rows="25" valeu="" placeholder="Seu texto aqui"></textarea>
         </div>
     </main>
+    <footer></footer>
+    <script src="./index.js"></script>
 </body>
 
 </html>

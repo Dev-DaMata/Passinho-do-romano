@@ -41,8 +41,13 @@ main{
     background-color: black;
     padding: 1%;
 }
-.right{
-    /* background-color: tomato; */
+.info1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+    padding: 1%;
 }
 .bobo{
     background-color: #59ae48;
@@ -53,11 +58,13 @@ main{
     margin-bottom: 2%;
 }
 .sumiu{
+    display: none;
+    /* visibility: hidden; */
     background-color: black;
     color: #59ae48;
     margin-top:3% ;
     border: 2px solid #4a993b;
     resize: none;
     padding-top: 1%;
+    
 }
-
